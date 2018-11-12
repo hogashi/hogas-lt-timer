@@ -3,12 +3,12 @@
 
 ## Usage
 
-do:
+Just open `index.html` with your browser.
+
+## Build
 
 ```
 $ yarn install
 $ yarn build
 ```
-
-then open `index.html` with your browser.
 
