@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>lttimer</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<main id="main">
+  <div id="interaction">
+    minute(s):
+    <input id="input" class="" type="text" placeholder="1~99" />
+    <button id="resetButton">[re]<br>set</button>
+    <button id="startStopButton">start<br>stop</button>
+  </div>
+  <div id="indicator">
+    00:00
+  </div>
+  <div id="description">
+    <b>Space/S</b>: start/stop,
+    <b>Escape/R</b>: reset,
+    <b>C-r/F5</b>: init,
+    <b>Arrows</b>: [in/de]crease time
+  </div>
+</main>
+<script src="./lib/index.js"></script>
+</body>
+</html>
